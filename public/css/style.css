@@ -1,0 +1,64 @@
+*{box-sizing: border-box;}
+nav{background-color:rgba(37, 36, 36,0.8);}
+.first-content img{width: 108px;height: 40px;}
+.collapse{justify-content: flex-end!important;}
+.second-content ul li{display: inline-block;margin-right: 20px;}
+.second-content ul li a{text-decoration: none;color: #EEE;}
+
+.dropbtn {color: white;text-align: center;text-decoration: none;}
+.dropdown-content {display: none;position: absolute;margin-left:5px;background-color:white;min-width: 100px;;box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);z-index: 1;}
+.dropdown-content a {color: black!important;padding: 6px 8px;text-decoration: none;display: block;text-align: left;}
+.dropdown-content a:hover {background-color:darkgrey;}
+.dropdown:hover .dropdown-content {display: block;}
+
+.bground{background-image: url('/storage/users/October2022/mo.jpg');background-size: 100% 100%;height: 90vh;}
+.dom{background-color:#0f0e0e;height:62px;position: relative;}
+.pppo{position: absolute;left: 120px;top: 22px;color: #fff;font-size:large;margin-bottom: 0!important;}
+.pppo ion-icon{margin-bottom: -2px!important;}
+
+
+/* second section design */ 
+.row{margin-right: 0!important;margin-left: 0!important;}
+.one{color:#fff;text-align: center;position: relative;}
+.one img{width: 100%;}
+.caption{width: 100%;height: 30%;position: absolute;left: 0;top: 30%;}
+.caption div{border:2px solid white;width: 25%;margin: auto;}
+.caption div a{color: #fff;text-decoration: none;}
+
+/* third section design*/
+.testingone{position: relative;padding-top: 40px;padding-bottom: 40px;}
+.testingone::before{content: "";position: absolute;top: 0;left: 0;height: 100%;width: 50%;background-color:#0f0e0e;}
+.testingone::after{content: "";position: absolute;top: 0;right: 0;height: 100%;width: 50%;background-color:#0f0e0e;}
+.forIcon h3{position: relative;z-index: 2;font-weight: bold;font-size: 20px;color:#FFF;margin: 0 0 30px;text-align: left;}
+.upTesting{position: relative;z-index: 2;}
+.forIcon ion-icon{margin-top: 2px!important;margin-right: 4px!important;font-size: 20px!important;color: white!important}
+.boxx{background-color:#0f0e0e;position: relative;}
+.boxx h4{color: #EEE;margin: 0!important;font-size: 15px;}
+.boxx span{font-size: 12px;color:#EEE;}
+.boxx ion-icon{color: #EEE;}
+.forPosition{position: absolute;top: 0;right: 0;background-color:cadetblue;padding: 4px;}
+
+
+/* fourth section design*/
+.blog{position: relative;padding-top: 40px;padding-bottom: 40px;}
+.blog::before{content: "";position: absolute;top: 0;left: 0;height: 100%;width: 50%;background-color:rgba(0,0,0,0.9);}
+.blog::after{content: "";position: absolute;top: 0;right: 0;height: 100%;width: 50%;background-color:rgba(0,0,0,0.9);}
+.forIconn{width: 25%;margin: auto;text-align: center;}
+.forIconn h3{position: relative;z-index: 2;font-weight: bold;font-size: 20px;color:#FFF;margin: 0 0 30px;display: inline-flex;}
+.downTesting{position: relative;z-index: 2;}
+.forIconn ion-icon{margin-right: 1px!important;font-size: 20px!important;color: white!important;text-align: center!important;}
+.box{background-color: #191919;}
+.box span{color: #EEE;}
+.box > p{margin: 0 0 20px;line-height: 1.5;font-size: 13px;color:#EEE;}
+.box > p a{text-decoration: none;}
+
+
+/* footer design*/
+
+.end{background-color: #0f0e0e;text-align: center;overflow: hidden;}
+.end h5,.end p,.end ion-icon{color: #EEE;}
+.end h5{margin-top: 15px;color: aquamarine;}
+.end ion-icon{margin-top:10px;margin-bottom: 15px;margin-right: 5px;}
+.end p{width: 50%;margin: auto;margin-top: 5px;margin-bottom: 5px;font-size: 12px;}
+
+
